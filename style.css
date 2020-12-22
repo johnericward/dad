@@ -1,0 +1,83 @@
+html, body {
+    width: 100%;
+   
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+body {
+    background-color: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    width: 80%;
+    margin: 3% auto;
+    font-weight: bold;
+    padding: 3.5% 0 1% 1.2%;
+    letter-spacing: 11px;
+    transform: scale(1, .95);
+}
+
+.subTitle {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.subTitleLink {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.subTitleImage {
+    width: 25%;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.infoSection {
+    color: rgb(255, 207, 49);
+    text-align: center;
+    font-size: 1.3vw;
+    width: 80%;
+    margin: 10% auto;
+    font-weight: bold;
+    padding: 3.5% 0 1% 1.2%;
+    letter-spacing: 5px;
+    transform: scale(1, .95);
+}
+
+
+/* ========================{ Media Queries }======================================= */
+
+  /* PHONES */
+
+  @media screen and (max-width: 992px) {
+  
+    .title {
+        font-size: 6vw;
+        margin: 10% auto;
+    }
+    
+    .subTitle {
+      text-align: center;
+      /* font-size: 3vw; */
+    }
+
+    .subTitleImage {
+        width: 50%;
+    }
+
+    .infoSection {
+        font-size: 3vw;
+    }
+    
+    
+    }
