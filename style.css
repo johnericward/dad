@@ -54,6 +54,24 @@ body {
     transform: scale(1, .95);
 }
 
+.emphasizedInfo {
+    /* color: rgb(182, 139, 0); */
+    color: rgb(190, 44, 0);
+}
+
+.desktopHours {
+    display: unset;
+    /* visibility: visible; */
+    /* display: none; */
+}
+
+.mobileHours {
+    display: none;
+    /* visibility: hidden; */
+}
+
+
+
 
 /* ========================{ Media Queries }======================================= */
 
@@ -79,5 +97,15 @@ body {
         font-size: 3vw;
     }
     
+    .desktopHours {
+        /* visibility: hidden; */
+        display: none;
+    }
+    
+    .mobileHours {
+        /* visibility: visible; */
+        display: unset;
+    }
+
     
     }
